@@ -12,7 +12,7 @@ body {
   color: rgb(71, 71, 71);
 }
 .header  {
-  background-image: url("../public/Images/home-bg.jpg");
+  background-image: url("/Images/home-bg.jpg");
   background-position: center;
   background-size: cover;
 }

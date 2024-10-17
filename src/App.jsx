@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
           <Route index element={<LandingPage />} />
-        <Route path="/home" element={<LandingPage />} />
+          <Route path="/home" element={<LandingPage />} />
       </Routes>
     </BrowserRouter>
     </>

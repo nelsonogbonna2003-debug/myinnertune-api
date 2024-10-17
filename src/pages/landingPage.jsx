@@ -120,54 +120,6 @@ function LandingPage () {
                 <h2 className='text-[60px] text-[#3c3e41] font-bold mt-2 sm:text-[40px] md:text-[50px] lg:text-[60px]'>Portfolio</h2>
                 <div className="grid grid-cols-3 gap-4 mt-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
-                        <img src="./Images/QR-full.png" className='rounded-md w-full  mb-3' alt="" />
-                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>QR COMPONENT</h1>
-                        <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
-                            <p className='font-medium'>HTML</p>
-                            <p className='font-medium'>CSS</p>
-                        </div> 
-                        {/* <p className='pl-4 mb-4 w-[90%] text-[16px]'>Scan QR Code from the website to improve your coding skills on Front-End mentor</p> */}
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
-                    </div>
-                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
-                        <img src="./Images/Sunnyside.png" className='rounded-md w-full  mb-3' alt="" />
-                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>SUNNY SIDE</h1>
-                        <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
-                            <p className='font-medium'>HTML</p>
-                            <p className='font-medium'>CSS</p>
-                        </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
-                    </div>
-                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
-                        <img src="./Images/Easy-Banking.png" className='rounded-md w-full  mb-3' alt="" />
-                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>EASY BANKING</h1>
-                        <div className="flex space-x-3 pl-4 mb-7">
-                            <p className='font-medium'>HTML</p>
-                            <p className='font-medium'>CSS</p>
-                        </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
-                    </div>
-                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
-                        <img src="./Images/Counter.png" className='rounded-md w-full  mb-3' alt="" />
-                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>COUNTER</h1>
-                        <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
-                            <p className='font-medium'>HTML</p>
-                            <p className='font-medium'>CSS</p>
-                            <p className='font-medium'>JAVASCRIPT</p>
-                        </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
-                    </div>
-                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
-                        <img src="./Images/Color-Flipper.png" className='rounded-md w-full  mb-3' alt="" />
-                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>BACKGROUND FLIPPER</h1>
-                        <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
-                            <p className='font-medium'>HTML</p>
-                            <p className='font-medium'>CSS</p>
-                            <p className='font-medium'>JAVASCRIPT</p>
-                        </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
-                    </div>
-                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
                         <img src="./Images/Quiz-App.png" className='rounded-md w-full  mb-3' alt="" />
                         <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>QUIZ APP</h1>
                         <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
@@ -175,28 +127,7 @@ function LandingPage () {
                             <p className='font-medium'>CSS</p>
                             <p className='font-medium'>JAVASCRIPT</p>
                         </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
-                    </div>
-                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
-                        <img src="./Images/Fitness Care.png" className='rounded-md w-full  mb-3' alt="" />
-                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>FITNESS CARE</h1>
-                        <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
-                            <p className='font-medium'>HTML</p>
-                            <p className='font-medium'>CSS</p>
-                            <p className='font-medium'>JAVASCRIPT</p>
-                        </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
-                    </div>
-                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
-                        <img src="./Images/Ekom-Headset.png" className='rounded-md w-full  mb-3' alt="" />
-                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>E-kom Headset</h1>
-                        <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
-                            <p className='font-medium'>HTML</p>
-                            <p className='font-medium'>CSS</p>
-                            <p className='font-medium'>JAVASCRIPT</p>
-                            <p className='font-medium'>REACT</p>
-                        </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
+                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button"><a href="https://quizzp.netlify.app/" target="_blank" rel="noopener noreferrer">View Project</a></button>
                     </div>
                     <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
                         <img src="./Images/Amali.png" className='rounded-md w-full  mb-3' alt="" />
@@ -207,8 +138,21 @@ function LandingPage () {
                             <p className='font-medium'>JAVASCRIPT</p>
                             <p className='font-medium'>REACT</p>
                         </div> 
-                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button">View Project</button>
+                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button"><a href="https://amali.netlify.app/" target="_blank" rel="noopener noreferrer">View Project</a></button>
                     </div>
+                    <div className="cursor-pointer shadow-lg rounded-lg bg-gradient-to-r from-[#e2e8ec] to-[#ffffff]" type='submit'>
+                        <img src="./Images/Princess-Simbiat-Weds-Ikechukwu-10-17-2024_08_58_PM.png" className='rounded-md w-full  mb-3' alt="" />
+                        <h1 className='text-[#ff014f] text-thin text-[20px] mb-2 pl-4'>HANNASAM EVENTS</h1>
+                        <div className="flex space-x-3 pl-4 mb-7 text-[16px]">
+                            <p className='font-medium'>HTML</p>
+                            <p className='font-medium'>CSS</p>
+                            <p className='font-medium'>JAVASCRIPT</p>
+                        </div> 
+                        <button className='flex justify-center js p-[10px] ml-4 mb-4 rounded-md text-[13px] w-[40%] text-center font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] animate-bounce' type="button"><a href="https://kalu-emeka.github.io/Princess-simbat-weds-ikechukwu/" target="_blank" rel="noopener noreferrer">View Project</a></button>
+                    </div>
+                </div>
+                <div className='flex justify-center items-center mt-[20px]'>
+                    <a className='pb-[10px] hover:text-gray-500' href="https://github.com/Kalu-Emeka?tab=repositories" target='_blank'>More projects on my Github</a>
                 </div>
             </section>
             <hr className='hh'/>    
@@ -225,37 +169,37 @@ function LandingPage () {
                         <p className='text-[20px] tracking-wide mb-2'>Email: brickkalu@gmail.com</p>
                         <p className='text-[20px] tracking-wide mb-2'>Connect with me</p>
                         <div className="flex space-x-2 mt-5">
-                            <img src="./Images/Frame 630354.png" className='w-[10%] shadow-md rounded-full p-2 cursor-pointer sm:w-[17%] md:w-[10%]' alt="" />
-                            <img src="./Images/Frame 630355.png" className='w-[10%] shadow-md rounded-full p-2 cursor-pointer sm:w-[17%] md:w-[10%]' alt="" />
-                            <img src="./Images/download.png" className='w-[10%] shadow-md rounded-full p-2 cursor-pointer sm:w-[17%] md:w-[10%]' alt="" />
+                            <a href="https://web.facebook.com/emeka.kalu.777158" target="_blank" rel="noopener noreferrer"><img src="./Images/Frame 630354.png" className='w-[20%] shadow-md rounded-full p-2 cursor-pointer sm:w-[17%] md:w-[35%]' alt="" /></a>
+                            <a href="https://www.linkedin.com/in/chukwuemka-kalu-15378b273/" target="_blank" rel="noopener noreferrer"><img src="./Images/Frame 630355.png" className='w-[20%] shadow-md rounded-full p-2 cursor-pointer sm:w-[17%] md:w-[35%]' alt="" /></a>
+                            <a href="https://x.com/KaluChukwu76137" target="_blank" rel="noopener noreferrer"><img src="./Images/download.png" className='w-[20%] shadow-md rounded-full p-2 cursor-pointer sm:w-[17%] md:w-[25%]' alt="" /></a>
                         </div>
                     </div>
                     <div className='border p-4 rounded-lg mt-10 shadow-lg ml-[auto] mr-[auto] sm:w-[100%] w-[90%] md:w-[70%] lg:w-[90%]'>
-                        <form action="" className=''>
+                        <form action="https://formspree.io/f/mbljjqka" method="POST">
                             <div className="t">
                                 <div className="grid grid-cols-2 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                                     <div className='mr-5 sm:mr-0 md:mr-0 lg:mr-5'>
                                         <label htmlFor="" className='mb-3 text-[#3c3e41] text-[16px]'>YOUR NAME</label>
-                                        <input type="text" className='p-[12px] rounded-md bg-[#fdfefe] w-[100%]'/>
+                                        <input type="text" className='p-[12px] rounded-md bg-[#fdfefe] w-[100%]'name='Name' required/>
                                     </div>
                                     <div className='mt-0 sm:mt-2 md:mt-0 lg:mt-0'>
                                         <label htmlFor="" className='mb-3 text-[#3c3e41] text-[16px]'>PHONE NUMBER</label>
-                                        <input type="number" className='p-[12px] rounded-md w-[100%] bg-[#fdfefe]' />
+                                        <input type="number" className='p-[12px] rounded-md w-[100%] bg-[#fdfefe]' name='Phone Number' required/>
                                     </div>
                                 </div>
                                 <div className="flex flex-col">
                                     <label htmlFor="" className='mb-3 mt-3 text-[#3c3e41] text-[16px]'>EMAIL</label>
-                                    <input type="email" className='p-[12px] rounded-md border border-solid bg-[#fdfefe]'/>
+                                    <input type="email" className='p-[12px] rounded-md border border-solid bg-[#fdfefe]' name='Email' required/>
                                 </div>
                                 <div className="flex flex-col">
                                     <label htmlFor="" className='mb-3 mt-3 text-[#3c3e41] text-[16px]'>SUBJECT</label>
-                                    <input type="text" className='p-[12px] rounded-md border border-solid bg-[#fdfefe]'/>
+                                    <input type="text" className='p-[12px] rounded-md border border-solid bg-[#fdfefe]' name='Subject' required/>
                                 </div>
                                 <div className="tx flex flex-col">
                                     <label htmlFor="" className='mb-3 mt-3 text-[#3c3e41] text-[16px]'>MESSAGE</label>
-                                    <textarea name="" id="" cols="30" rows="6" className='p-2 rounded-md bg-[#fdfefe]'></textarea>
+                                    <textarea name="Message" id="" cols="30" rows="6" className='p-2 rounded-md bg-[#fdfefe]' required></textarea>
                                 </div>
-                                <button type='button' className='mt-5 flex justify-center items-center bg-[#878e99] p-2 text-white rounded-md hover:bg-[#ff014f] hover:text-white w-full'>SEND MESSAGE</button>
+                                <button type='submit' className='mt-5 flex justify-center items-center bg-[#878e99] p-2 text-white rounded-md hover:bg-[#ff014f] hover:text-white w-full'>SEND MESSAGE</button>
                             </div>
                         </form>
                     </div>
