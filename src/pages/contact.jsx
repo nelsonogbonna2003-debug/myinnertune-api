@@ -4,9 +4,9 @@ function Contacts  () {
     return (
         <>
             <Navbar/>
-            <section className='con block py-[190px] sm:py-[50px] md:py-[50px] lg:py-[190px]'>
+            <section className='con block py-[190px] sm:py-[50px] md:py-[50px] lg:py-[40px]'>
                 <div className='flex justify-center'>
-                    <h2 className="text-[50px] text-white font-bold sm:text-[30px] md:text-[40px] lg:w-[50px]">Contact Us</h2>
+                    <h2 className="text-[50px] text-white font-bold sm:text-[30px] md:text-[40px] lg:text-[50px]">Contact Us</h2>
                 </div>
             </section>
             <section>

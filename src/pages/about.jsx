@@ -4,9 +4,9 @@ function About () {
     return (
         <>
             <Navbar/>
-            <section className='about block py-[190px] sm:py-[50px] md:py-[50px] lg:py-[190px]'>
+            <section className='about block py-[190px] sm:py-[50px] md:py-[50px] lg:py-[40px]'>
                 <div className='flex justify-center'>
-                    <h2 className="text-[50px] text-white sm:text-[30px] md:text-[40px] lg:w-[50px] font-bold">About Us</h2>
+                    <h2 className="text-[50px] text-white sm:text-[30px] md:text-[40px] lg:text-[50px] font-bold">About Us</h2>
                 </div>
             </section>
             <section>
