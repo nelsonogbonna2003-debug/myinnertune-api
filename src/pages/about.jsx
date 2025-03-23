@@ -38,7 +38,7 @@ function About () {
                 </div>
             </section>
             <section>
-                <div className='mt-[70px] bg-[#E46924] flex justify-center items-center px-[60px] py-[70px] sm:flex-col md:flex-col lg:flex-row sm:px-[20px] md:px-[20px] lg"px-[60px]'>
+                <div className='mt-[70px] bg-[#E46924] flex justify-center items-center px-[60px] py-[70px] sm:flex-col md:flex-col lg:flex-row sm:px-[20px] md:px-[20px] lg:px-[60px]'>
                     <img className='rounded-[120px] w-[45%] sm:w-full md:w-full lg:w-[45%] sm:mb-[20px] md:mb-[20px] lg:mb-0' src="/Images/easy2_geil4i.jpg" alt="" />
                     <div className='pl-[40px] sm:pl-[20px] md:pl-[20px] lg:pl-[40px]'>
                         <h2 className="text-[30px] text-white sm:text-[25px] md:text-[27px] lg:text-[30px] font-bold mb-[10px]">Our Mission</h2>
@@ -47,7 +47,7 @@ function About () {
                 </div>
             </section>
             <section>
-                <div className='mt-[70px] bg-white flex justify-center items-center px-[60px] py-[70px] sm:flex-col md:flex-col lg:flex-row sm:px-[20px] md:px-[20px] lg"px-[60px]'>
+                <div className='mt-[70px] bg-white flex justify-center items-center px-[60px] py-[70px] sm:flex-col md:flex-col lg:flex-row sm:px-[20px] md:px-[20px] lg:px-[60px]'>
                     <div className='pr-[40px] sm:pr-[20px] md:pr-[20px] lg:pr-[40px]'>
                         <h2 className="text-[30px] sm:text-[25px] md:text-[27px] lg:text-[30px] font-bold mb-[10px]">Our Vision</h2>
                         <p className='w-[70%] sm:w-full md:w-full lg:w-[70%]'>To be the leading provider of transformative mental wellbeing services, setting the standard for innovation, compassion, and reliability in Nigeria and, ultimately, the global community.</p>    
@@ -114,7 +114,7 @@ function About () {
                 </div>
             </section>
             <section>
-                <div className='flex justify-center items-center px-[60px] py-[70px] bg-[#FDFBF4] sm:flex-col md:flex-col lg:flex-row sm:px-[20px] md:px-[20px] lg"px-[60px]'>
+                <div className='flex justify-center items-center px-[60px] py-[70px] bg-[#FDFBF4] sm:flex-col md:flex-col lg:flex-row sm:px-[20px] md:px-[20px] lg:px-[60px]'>
                     <img className='rounded-[120px] w-[40%]  sm:w-[90%] md:w-[90%] lg:w-[40%] sm:mb-[20px] md:mb-[20px] lg:mb-0' src="/Images/Frame_201597882168_qriry8.png" alt="" />
                     <div className='pl-[60px] sm:pl-[20px] md:pl-[20px] lg:pl-[60px]'>
                         <h2 className="text-[25px] sm:text-[17px] md:text-[25px] font-bold mb-[10px]">Expanding Mental Health Support Globally</h2>
