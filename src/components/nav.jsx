@@ -1,41 +1,36 @@
 import { useState } from "react";
-
+import { NavLink } from "react-router-dom";
 function NavBar () {
     const [nav, setNav] = useState(false);
     const showNav = ()  => {
        setNav(!nav)
     }
+    const colorChange =  () => {
+        
+    }
     return (
         <>
-            <div className="fixed w-full z-[1000] p-[5px] py-2 bg-[#E4E4E4] shadow-md">
-                <nav className="flex justify-between items-center  my-[10px] mx-20 h-10 pb-13 sm:mx-5 lg:mx-20">
+            <div className="fixed w-full z-[1000] p-[5px] py-2 bg-[#FDFBF5] shadow-md">
+                <nav className="flex justify-between items-center  my-[7px] mx-20 h-10 pb-13 sm:mx-5 lg:mx-20">
                     <div className="flex justify-between items-center w-[100%] sm:w-[100%] md:w-[100%] lg:w-[20%]">
                         <div className="">
-                            <a className="text-[30px] text-black font-medium" href="/">Techie.</a>
+                            <a href="/"><img className="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[40%]" src="icons/easygold icon.png" alt="" /></a>
                         </div>
-                        <div className="w-0 sm:w-7 md:w-8 lg:w-0" onClick={showNav}>
-                           {!nav ? <img className="cursor-pointer" src="/Images/menu.png" alt=""/> : <img className="cursor-pointer" src="/Images/close.png" alt=""/>}
+                        <div className="w-0 sm:w-10 md:w-8 lg:w-0" onClick={showNav}>
+                           {!nav ? <img className="cursor-pointer" src="/icons/menu.png" alt=""/> : <img className="cursor-pointer" src="/icons/close.png" alt=""/>}
                         </div>
                     </div>
-                    <ul className="flex justify-center items-center text-[16px] text-uppercase space-x-5 text-black sm:hidden md:hidden lg:flex">
-                        <li className="text-center text-md"><a className='hover:text-[#ff014f] pr-3' href="/">Home</a></li>
-                        <li className="text-center text-md"><a className='hover:text-[#ff014f]  pr-3' href="#features">Services</a></li>
-                        <li className="text-center text-md"><a className='hover:text-[#ff014f] pr-3' href="#skills">Skills</a></li>
-                        <li className="text-center text-md"><a className='hover:text-[#ff014f] pr-3' href="#portfolio">Projects</a></li>
-                        <li className="text-center text-md"><a className='hover:text-[#ff014f] pr-3' href="#contact">Contact</a></li>
-                        <a href="https://www.resume.com/dashboard/resume/a1dbbd70-42a3-43fb-b7ba-18b37407ed87" target="_blank" rel="noopener noreferrer"><button  className="flex p-[10px] rounded-md text-[13px] font-medium shadow-md text-white hover:bg-[#ff014f] hover:text-white bg-[#878e99] sm:hidden md:hidden lg:flex" type="button">Download Resume</button></a>
+                    <ul className="flex justify-between items-center text-[14px] space-x-5 text-black sm:hidden md:hidden lg:flex">
+                        <li className="text-center font-medium active:text-[#E46924]"><a aria-current="page"  className='hover:text-[#E46924] pr-3' href="/" data-discover="true">Home</a></li>
+                        <li className="text-center font-medium active:text-[#E46924]"><a className='hover:text-[#E46924] pr-3' href="/about" data-discover="true">About</a></li>
+                        <li className="text-center font-medium active:text-[#E46924]"><a className='hover:text-[#E46924] pr-3' href="/contacts" data-discover="true">Contatcs</a></li>
                     </ul>
-                    <div className={!nav ? 'fixed left-[-100%]' : 'fixed left-0 top-0 w-[40%] text-black mt-[76px] h-full bg-[#E4E4E4] shadow-md ease-in-out duration-500 sm:w-[80%] md:w-[40%] lg:hidden'}>
+                    <div className={!nav ? 'fixed left-[-100%]' : 'fixed left-0 top-0 w-[40%] text-black mt-[70px] h-full bg-[#e6c4b0] shadow-md ease-in-out duration-500 sm:w-[80%] md:w-[40%] lg:hidden'}>
                         <ul className="uppercase w-full p-12 space-y-6">
-                            <li className="text-md"><a className='hover:text-[#ff014f] font-medium' onClick={showNav} href="/">Home</a></li>
-                            <li className="text-md"><a className='hover:text-[#ff014f] font-medium' onClick={showNav} href="#features">Services</a></li>
-                            <li className="text-md"><a className='hover:text-[#ff014f] font-medium' onClick={showNav} href="#skills">Skills</a></li>
-                            <li className="text-md"><a className='hover:text-[#ff014f] font-medium' onClick={showNav} href="#portfolio">Projects</a></li>
-                            <li className=""><a className='hover:text-[#ff014f] font-medium' onClick={showNav}  href="#contact">Contact</a></li>
+                            <li className="font-medium"><a className='hover:text-[#E46924] font-medium' onClick={showNav} href="/">Home</a></li>
+                            <li className="font-medium"><a className='hover:text-[#E46924] font-medium' onClick={showNav} href="/about">About Us</a></li>
+                            <li className="font-medium"><a className='hover:text-[#E46924] font-medium' onClick={showNav}  href="/contacts">Contacts</a></li>
                         </ul>
-                        <div className="flex p-[10px] ml-12 w-[40%] mr-4 rounded-md text-[13px] hover:bg-[#ff014f] hover:text-white bg-[#878e99] sm:w-[50%]">
-                            <a href="https://www.resume.com/dashboard/resume/a1dbbd70-42a3-43fb-b7ba-18b37407ed87" target="_blank" rel="noopener noreferrer"><button type="button">Download Resume</button></a>
-                        </div>
                     </div>
                    
                 </nav>

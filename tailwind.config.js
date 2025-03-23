@@ -13,6 +13,9 @@ export default {
     },
     extend: {},
   },
+  variants: {
+    backgroundColor: ['active', 'responsive', 'focus']
+  },
   plugins: [],
 }
 
