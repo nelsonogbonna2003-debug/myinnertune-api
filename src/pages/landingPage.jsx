@@ -9,7 +9,7 @@ function LandingPage () {
                 <div className='flex justify-between items-center sm:flex-col md:flex-col lg:flex-row'>
                     <div>
                         <h2 className="mb-2 w-[48%] text-[50px] text-[#0C394A] font-bold sm:w-full md:w-full lg:w-[48%] sm:text-[25px] md:text-[27px] lg:w-[40px]">Welcome to EasyGold Initiative for Mental Health</h2>
-                        <p className='w-[40%] text-[#3c3e41] text-bold text-[14px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] sm:w-[100%] md:w-[70%] lg:w-[70%]'>Empowering your journey to mental well-being</p>
+                        <p className='w-[40%] text-[#3c3e41] text-bold text-[15px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] sm:w-[100%] md:w-[70%] lg:w-[70%]'>Empowering your journey to mental well-being</p>
                         <div className='text-[12px] sm:mb-[30px] md:mb-[30px] lg:mb-0'>
                             <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm mr-[20px] px-[10px] py-[8px] border text-white bg-[#E46924] rounded-md hover:bg-[#E46924]" type="button">Get started</button></a>
                             <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[10px] py-[8px] border bg-white rounded-md hover:bg-gray-200" type="button">Learn more</button></a>
