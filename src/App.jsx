@@ -1,10 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import LandingPage from './pages/landingPage.jsx'
-import About from './pages/about.jsx';
-import Contacts from './pages/contact.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './pages';
 AOS.init();
 function App() {
 
@@ -12,10 +10,8 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-          <Route index element={<LandingPage />} />
-          <Route path="/home" element={<LandingPage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
     </>
