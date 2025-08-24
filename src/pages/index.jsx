@@ -1,7 +1,9 @@
+// import { Link } from "react-router-dom"
+import Signup from "./sign-in"
 function Home () {
     return (
         <>
-            <div>Welcome to my app</div>
+            <Signup/>
         </>
     )
 }

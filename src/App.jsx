@@ -3,6 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages';
+import Signup from './pages/sign-in';
+import Login from './pages/login';
 AOS.init();
 function App() {
 
@@ -10,8 +12,10 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-          <Route index element={<Home />} />
+          <Route index element={<Signup />} />
           <Route path="/" element={<Home />} />
+          <Route path="/sign-up" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
     </>
