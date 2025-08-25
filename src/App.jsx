@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages';
 import Signup from './pages/sign-in';
 import Login from './pages/login';
+import ChatBox from './components/chatBox';
 AOS.init();
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sign-up" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/chatbox" element={<ChatBox/>} />
       </Routes>
     </BrowserRouter>
     </>

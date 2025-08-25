@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import AuthCard from '../components/AuthCard';
-import { api } from '../lib/api';
+import { supabase } from '../lib/supabaseClient';
 import { Link } from 'react-router-dom';
 
 
@@ -10,30 +11,32 @@ function Signup({ onDone, switchToLogin }) {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
     const [successMsg, setSuccessMsg] = useState('');
+    const navigate = useNavigate();
 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setLoading(true);
-        setError('');
-        setSuccessMsg('');
+            setLoading(true);
+            setError('');
+            setSuccessMsg('');
 
-        try {
-        const res = await api.signup({ email, password });
-        if (res?.success) {
-            setSuccessMsg(
-            "Signup successful! We've sent you a verification link. Please check your email before logging in."
-            );
+        const { error } = await supabase.auth.signUp({
+            email,
+            password,
+        });
+
+        if (error) {
+        setError(error.message);
+        } else {
+            setSuccessMsg("Signup successful");
             setEmail('');
             setPassword('');
-        } else {
-            setError(res?.message || 'Signup failed');
+            setTimeout(() => {
+                navigate('/login');
+            }, 2000);
+            
         }
-        } catch (err) {
-        setError(err?.message || 'Signup failed');
-        } finally {
-        setLoading(false);
-        }
+            setLoading(false);
     };
 
     return (
@@ -54,7 +57,7 @@ function Signup({ onDone, switchToLogin }) {
                     {successMsg && (
                         <div className="text-sm text-green-600">{successMsg}</div>
                     )}
-                    <button className="btn w-full" disabled={loading}>{loading ? 'Creating…' : 'Sign up'}</button>
+                    <button className="w-full inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium bg-black text-white" disabled={loading}>{loading ? 'Creating…' : 'Sign up'}</button>
                 </form>
                 <div className="text-center text-sm mt-4">Already have an account? <Link className='text-blue-600' to="/login">Login</Link></div>
                 </AuthCard>
